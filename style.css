@@ -3788,7 +3788,8 @@ header {
     margin-left: 20px;
     margin-right: 20px;
     width: calc(83.33333% - 40px);
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    z-index: 1; }
     @media screen and (max-width: 990px) {
       .hero__title {
         width: calc(100% - 40px); } }
