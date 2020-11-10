@@ -3625,7 +3625,7 @@ a {
   margin-right: -20px; }
 
 header {
-  position: absolute;
+  position: fixed;
   width: 100%;
   z-index: 10;
   top: 0px;
@@ -3757,15 +3757,10 @@ header {
           flex-shrink: 0;
   z-index: 2; }
 
-.header_fixed-topanimation {
-  top: -200px;
-  position: fixed; }
-  .header_fixed-topanimation .navigation {
-    padding: 10px 0px; }
-
 .header_fixed {
-  background: #1d1d1e;
-  top: 0px; }
+  background: #1d1d1e; }
+  .header_fixed .navigation {
+    padding: 10px 0px; }
 
 .hero {
   padding: 150px 0px;
