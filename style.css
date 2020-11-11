@@ -4418,7 +4418,7 @@ section {
 .wpcf7-response-output {
   position: absolute;
   width: 100%;
-  height: 20%;
+  height: 23%;
   bottom: 0;
   background: #fff;
   text-align: center;
@@ -4432,7 +4432,13 @@ section {
   line-height: 2; }
 
 .wpcf7 form.invalid .wpcf7-response-output {
-  display: none !important; }
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
+  opacity: 0;
+  z-index: -999; }
 
 .wpcf7 form.sent .wpcf7-response-output {
   background: #dc4641;
