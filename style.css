@@ -4430,6 +4430,10 @@ section {
 .form-inline .wpcf7-response-output {
   height: 100%;
   line-height: 2; }
+  @media screen and (max-width: 560px) {
+    .form-inline .wpcf7-response-output {
+      height: 46%;
+      line-height: 1; } }
 
 .wpcf7 form.invalid .wpcf7-response-output {
   display: -webkit-box;
