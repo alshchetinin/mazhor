@@ -75,12 +75,10 @@ $description = get_field('description');
                   <?php while (have_rows('simple-repeater')) : the_row();
 
                   // переменные
-                  $img = get_sub_field('img');    
-                                            
+                  $img = get_sub_field('img');                                                
                   ?>
                   <?php ?>
-                  <div class="simple-image__pic" style="background-image: url(<?php echo $img?>)"></div>
-                  <?php break;  ?>
+                  <div class="simple-image__pic" style="background-image: url(<?php echo $img?>)"></div>                  
                   <?php endwhile; ?>                        
 
                   
