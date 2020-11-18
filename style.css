@@ -4108,9 +4108,6 @@ section {
             flex-wrap: nowrap;
     overflow: hidden; }
 
-.profitable .headline-section {
-  width: calc(100% - 40px); }
-
 .profitable-item {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
