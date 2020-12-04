@@ -4001,7 +4001,16 @@ section {
   @media screen and (max-width: 990px) {
     .simple-text {
       padding-bottom: 75px;
-      height: auto; } }
+      height: auto;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-align: start;
+      -webkit-align-items: flex-start;
+          -ms-flex-align: start;
+              align-items: flex-start; } }
   .simple-text:first-of-type {
     margin-top: 300px; }
     @media screen and (max-width: 990px) {
@@ -4062,6 +4071,9 @@ section {
     -webkit-transition: all .2s ease;
     -o-transition: all .2s ease;
     transition: all .2s ease; }
+    @media screen and (max-width: 990px) {
+      .simple-text__number {
+        margin-bottom: 16px; } }
     .simple-text__number span {
       font-size: 24px;
       font-family: "gt", sans-serif;
@@ -4073,6 +4085,11 @@ section {
     .simple-text__number_animation {
       background: #dc4641;
       color: white; }
+  .simple-text img {
+    display: none; }
+    @media screen and (max-width: 990px) {
+      .simple-text img {
+        display: block; } }
 
 .simple-image {
   position: absolute;
@@ -4677,15 +4694,23 @@ input[type="submit"] {
     display: none; }
     @media screen and (max-width: 990px) {
       .iphone-video__mobile {
-        display: block; } }
+        display: block;
+        position: absolute; } }
   .iphone-video__play, .iphone-video__pause {
     text-align: center;
-    padding: 10px 12px;
+    padding: 8px 8px;
     border-radius: 8px;
     background: #1d1d1e;
     font-size: 12px;
     color: white;
-    cursor: pointer; }
+    cursor: pointer;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    .iphone-video__play img, .iphone-video__pause img {
+      position: relative;
+      width: 32px; }
   .iphone-video__pause {
     background: #dc4641;
     display: none; }

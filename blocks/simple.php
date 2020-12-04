@@ -29,8 +29,8 @@ $description = get_field('description');
                               <div class="simple-text__line_amnimation"></div>
                               <div class="simple-text__line"></div>
                               <div class="simple-text__number"><span><?php echo get_row_index(); ?></span></div>
-                              <h3 class="simple-text__title"><?php echo $title?></h3>
-                              <img src="" alt="" class="img-responsive">
+                              <h3 class="simple-text__title"><?php echo $title?></h3>                              
+                              <!-- <img src="<?php echo $img ?>" alt="" class="img-responsive"> -->
                         </div>
 
                         <?php endwhile; ?>
