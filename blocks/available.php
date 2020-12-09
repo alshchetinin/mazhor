@@ -62,7 +62,7 @@ $form_title = get_field('form_title');
             </div>
       </div>
 </section>
-<section id="flats-price">
+<section id="price">
       <div class="wrapper">
       <div class="row" >
                   <div class="flats-price" >
