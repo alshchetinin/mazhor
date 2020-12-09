@@ -75,7 +75,7 @@ $form_title = get_field('form_title');
                               <div class="flats-price-item__title"><?php echo $title ?></div>
                               <div class="flats-price-item__sq"><?php echo $sq ?> кв. м</div>
                               <div class="flats-price-item__pic">
-                                    <img src="<?php echo $img ?>" alt="" class="img-responsive">
+                                    <img src="<?php echo $img ?>" alt="" class="img-responsive skip-lazy">
                               </div>
                               <div class="flats-price-item__price"><?php echo $price ?> р.</div>
 
