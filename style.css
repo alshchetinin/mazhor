@@ -3921,9 +3921,6 @@ section {
     section {
       margin-bottom: calc(136px / 2); } }
 
-.available {
-  margin-bottom: 0px; }
-
 .simple {
   position: relative; }
 
@@ -4244,9 +4241,9 @@ section {
         font-size: 14px; } }
 
 .features1 {
-  margin-bottom: 0px; }
+  margin-bottom: 40px; }
 
-#flats-price {
+#price {
   padding-top: 40px; }
 
 .flats-price {
