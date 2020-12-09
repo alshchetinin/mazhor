@@ -3921,6 +3921,9 @@ section {
     section {
       margin-bottom: calc(136px / 2); } }
 
+.available {
+  margin-bottom: 0px; }
+
 .simple {
   position: relative; }
 
