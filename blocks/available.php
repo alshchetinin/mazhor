@@ -60,8 +60,8 @@ $form_title = get_field('form_title');
 
                   </div>
             </div>
-            <div class="row">
-                  <div class="flats-price">
+            <div class="row" id="flats-price">
+                  <div class="flats-price" >
                         <h3 class="flats-price__title"> <?php echo $price_title  ?></h3>
                         <?php while( have_rows('kvartiry') ): the_row(); 
 
