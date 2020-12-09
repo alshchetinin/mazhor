@@ -4181,7 +4181,8 @@ section {
   grid-template-columns: 1fr 1fr 1fr;
       grid-template-areas: 'title title title';
   grid-column-gap: 50px;
-  grid-row-gap: 16px; }
+  grid-row-gap: 16px;
+  margin-bottom: 40px; }
   @media screen and (max-width: 780px) {
     .features {
       -ms-grid-columns: 1fr 8px 1fr;
@@ -4238,6 +4239,9 @@ section {
     @media screen and (max-width: 780px) {
       .features__text {
         font-size: 14px; } }
+
+.features1 {
+  margin-bottom: 0px; }
 
 #flats-price {
   padding-top: 40px; }
