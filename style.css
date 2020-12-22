@@ -4021,18 +4021,19 @@ section {
       -webkit-justify-content: center;
           -ms-flex-pack: center;
               justify-content: center; } }
-  .simple-item__icon {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 16px; }
-    .simple-item__icon svg path {
-      fill: #dc4641; }
+  @media screen and (max-width: 780px) {
+    .simple-item__icon {
+      margin-bottom: 16px;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+      -webkit-justify-content: center;
+          -ms-flex-pack: center;
+              justify-content: center; } }
+  .simple-item__icon svg path {
+    fill: #dc4641; }
   .simple-item__title {
     font-size: 16px;
     font-weight: bold;
