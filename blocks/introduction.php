@@ -26,7 +26,7 @@ $description = get_field('description');
                   <div class="introduction-item">
                         <div class="introduction-item__number"><span>25</span></div>
                         <div class="introduction-item__text">
-                        Кол-во подключенных домов 
+                        Количество подключенных домов 
                         </div>
 
                   </div>
@@ -34,7 +34,7 @@ $description = get_field('description');
                   <div class="introduction-item">
                         <div class="introduction-item__number"><span>93</span>%</div>
                         <div class="introduction-item__text">
-                        жителей подключенного дома используют Мажордом
+                        Жителей подключенного дома используют Мажордом
                         </div>
 
                   </div>
