@@ -4817,14 +4817,14 @@ input[type="submit"] {
     .introduction-item {
       width: calc(100% - 40px); } }
   .introduction-item__number {
-    font-size: 84px;
-    line-height: 84px;
+    font-size: 80px;
+    line-height: 80px;
     color: #dc4641;
     margin-bottom: 30px;
     font-weight: bold; }
-    @media screen and (max-width: 1100px) {
+    @media screen and (max-width: 1174px) {
       .introduction-item__number {
-        font-size: 77px; } }
+        font-size: 64px; } }
   .introduction-item__text {
     font-size: 18px;
     font-family: "gt", sans-serif;
