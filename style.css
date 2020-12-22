@@ -3946,7 +3946,8 @@ section {
     line-height: 0.95; }
     @media screen and (max-width: 780px) {
       .headline-section__title {
-        font-size: 32px; } }
+        font-size: 32px;
+        line-height: 1.3; } }
   .headline-section_horizontally {
     width: calc(100% - 40px);
     display: -webkit-box;
@@ -4014,7 +4015,9 @@ section {
     .simple-item {
       margin-bottom: 40px; }
       .simple-item:nth-child(3)::after {
-        opacity: 1; } }
+        opacity: 1; }
+      .simple-item:last-of-type {
+        margin-bottom: 0px; } }
   @media screen and (max-width: 780px) {
     .simple-item {
       -webkit-box-pack: center;
@@ -4814,8 +4817,8 @@ input[type="submit"] {
     .introduction-item {
       width: calc(100% - 40px); } }
   .introduction-item__number {
-    font-size: 96px;
-    line-height: 92px;
+    font-size: 84px;
+    line-height: 84px;
     color: #dc4641;
     margin-bottom: 30px;
     font-weight: bold; }
