@@ -9,7 +9,7 @@
 
 <div class="hero">
       <div class="hero__overlay hero__overlay_mobile"></div>
-      <img src="data:image/gif;base64,R0lGODlhEAAJAIAAAP///wAAACH5BAEAAAEALAAAAAAQAAkAAAIKjI+py+0Po5yUFQA7" data-src="<?php echo $picture ?>" alt="" class="hero__bg lazy">
+      <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODg2IiBoZWlnaHQ9IjE5MjAiIHZpZXdCb3g9IjAgMCA4ODYgMTkyMCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggb3BhY2l0eT0iMC4wNCIgZD0iTTQxOS40MDIgMTA3MS45OUwzNzEuNzYyIDkxMS45NzJIMzcwLjY1NEMzNzAuODM5IDkxNS43ODIgMzcxLjExNiA5MjEuNDk3IDM3MS40ODUgOTI5LjExN0MzNzEuODU0IDkzNi43MzcgMzcyLjIyNCA5NDQuOTI5IDM3Mi41OTMgOTUzLjY5MkMzNzIuOTYyIDk2Mi4yNjQgMzczLjE0NyA5NzAuMDc1IDM3My4xNDcgOTc3LjEyM1YxMDcxLjk5SDMzNS43NTVWODY3Ljk2NkgzOTIuODEyTDQzOS42MjEgMTAyMy45OUg0NDAuNDUyTDQ5MC4wMzEgODY3Ljk2Nkg1NDcuMDg4VjEwNzEuOTlINTA4LjAzNVY5NzUuNDA5QzUwOC4wMzUgOTY4LjkzMiA1MDguMTI3IDk2MS41MDIgNTA4LjMxMiA5NTMuMTJDNTA4LjY4MSA5NDQuNzM4IDUwOC45NTggOTM2LjgzMiA1MDkuMTQzIDkyOS40MDNDNTA5LjUxMiA5MjEuNzgzIDUwOS43ODkgOTE2LjA2OCA1MDkuOTc0IDkxMi4yNThINTA4Ljg2Nkw0NTcuOTAyIDEwNzEuOTlINDE5LjQwMloiIGZpbGw9ImJsYWNrIi8+Cjwvc3ZnPgo=" data-src="<?php echo $picture ?>" alt="" class="hero__bg lazy">
       <div class="wrapper">
             <div class="row">                  
                   <div class="hero__title">
