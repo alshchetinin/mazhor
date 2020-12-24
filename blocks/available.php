@@ -51,7 +51,7 @@ $form_title = get_field('form_title');
                         ?>
                         <div class="features__item">
                               
-                              <img class="skip-lazy" src="<?php echo $icon?>" alt="" class="features__icon">
+                              <img class="features__icon" src="<?php echo $icon?>" alt="" class="features__icon">
                               
                               <p class="features__text"><?php echo $text ?></p>
 
