@@ -5290,12 +5290,12 @@ input[type="submit"] {
 .contact-download__href {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 100px 16px 165px 16px 50px;
-  grid-template-columns: 100px 165px 50px;
+  -ms-grid-columns: 100px 16px 110px 16px 50px;
+  grid-template-columns: 100px 110px 50px;
   -ms-grid-rows: 50px;
   grid-template-rows: 50px;
   grid-column-gap: 16px;
-      grid-template-areas: 'qr as lg' 'qr gp lg'; }
+      grid-template-areas: 'qr as lg' 'qr gp lg' 'qr hw lg'; }
   @media screen and (max-width: 780px) {
     .contact-download__href {
       -ms-grid-columns: 1fr 1fr;
@@ -5307,7 +5307,7 @@ input[type="submit"] {
 
 .contact-download__qr {
   -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
+  -ms-grid-row-span: 3;
   -ms-grid-column: 1;
   grid-area: qr; }
   @media screen and (max-width: 780px) {
@@ -5326,9 +5326,14 @@ input[type="submit"] {
   -ms-grid-column: 3;
   grid-area: gp; }
 
+.contact-download__huawei {
+  -ms-grid-row: 3;
+  -ms-grid-column: 3;
+  grid-area: hw; }
+
 .contact-download__logo {
   -ms-grid-row: 1;
-  -ms-grid-row-span: 2;
+  -ms-grid-row-span: 3;
   -ms-grid-column: 5;
   grid-area: lg;
   -ms-grid-row-align: center;
