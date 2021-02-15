@@ -48,9 +48,9 @@
                                           <div class="contact-download__href">
                                                 <div class="contact-download__qr"><img src="<?php the_field('qr', 'option')?>" alt=""></div>
                                                 <div class="contact-download__store">
-                                                <div class="contact-download__appstore"><a href="<?php the_field('linkApsstore', 'option')?>"><img src="<?php echo get_template_directory_uri() ?>/img/appstore.png" alt=""></a></div>
-                                                <div class="contact-download__googleplay"><a href="<?php the_field('linkGP', 'option')?>"><img src="<?php echo get_template_directory_uri() ?>/img/googleplay.png" alt=""></a></div>
-                                                <div class="contact-download__huawei"><a href="<?php the_field('linkHuawei', 'option')?>"><img src="<?php echo get_template_directory_uri() ?>/img/huaweiapppng.png" alt=""></a></div>
+                                                <div class="contact-download__appstore"><a href="<?php the_field('linkApsstore', 'option')?>" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/img/appstore.png" alt=""></a></div>
+                                                <div class="contact-download__googleplay"><a href="<?php the_field('linkGP', 'option')?>" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/img/googleplay.png" alt=""></a></div>
+                                                <div class="contact-download__huawei"><a href="<?php the_field('linkHuawei', 'option')?>" target="_blank"><img src="<?php echo get_template_directory_uri() ?>/img/huaweiapppng.png" alt=""></a></div>
                                          
                                                 </div>
                                                 
