@@ -17,14 +17,14 @@ $description = get_field('description');
             </div>
             <div class="row">
                   <div class="introduction-item">
-                        <div class="introduction-item__number"><span>8700</span></div>
+                        <div class="introduction-item__number"><span>5793</span></div>
                         <div class="introduction-item__text">
                         Количество активных пользователей 
                         </div>
 
                   </div>
                   <div class="introduction-item">
-                        <div class="introduction-item__number"><span>25</span></div>
+                        <div class="introduction-item__number"><span>71</span></div>
                         <div class="introduction-item__text">
                         Количество подключенных домов 
                         </div>
@@ -32,16 +32,16 @@ $description = get_field('description');
                   </div>
 
                   <div class="introduction-item">
-                        <div class="introduction-item__number"><span>93</span>%</div>
+                        <div class="introduction-item__number"><span>97</span>%</div>
                         <div class="introduction-item__text">
-                        Жителей подключенного дома используют Мажордом
+                        Жителей новостроек используют Мажордом
                         </div>
 
                   </div>
                   <div class="introduction-item">
-                        <div class="introduction-item__number"><span>4</span>.<span>7</span></div>
+                        <div class="introduction-item__number"><span>4</span>.<span>4</span></div>
                         <div class="introduction-item__text">
-                              Индекс удовлетворенности гарантийным обслуживанием
+                        Индекс удовлетворённости жильцов качеством сервисного обслуживания (CSI) 
                         </div>
 
                   </div>
